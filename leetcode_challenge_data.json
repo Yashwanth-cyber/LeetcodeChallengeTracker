@@ -1,0 +1,29 @@
+{
+    "members": [
+        "Yashwanth",
+        "Naveen",
+        "Vinay",
+        "Harshith"
+    ],
+    "problems_solved": {
+        "Yashwanth": {
+            "count": 0,
+            "join_date": "2024-11-21T00:37:11.338179"
+        },
+        "Naveen": {
+            "count": 0,
+            "join_date": "2024-11-21T00:37:28.208612"
+        },
+        "Vinay": {
+            "count": 0,
+            "join_date": "2024-11-21T00:37:36.762805"
+        },
+        "Harshith": {
+            "count": 0,
+            "join_date": "2024-11-21T00:37:43.560042"
+        }
+    },
+    "total_problems": 25,
+    "start_date": "2024-11-21T00:36:46.351858",
+    "winners": {}
+}
