@@ -302,12 +302,12 @@ def main():
             with button_col1:
                 if st.button("+", key=f"increment_{member}"):
                     tracker.increment_problems(member)
-                    st.experimental_rerun()
+                    st.rerun()
             
             with button_col2:
                 if st.button("-", key=f"decrement_{member}"):
                     tracker.decrement_problems(member)
-                    st.experimental_rerun()
+                    st.rerun()
 
     # ------------------- Added Reset Button Below -------------------
     st.markdown("---")  # Horizontal line for separation
@@ -319,7 +319,7 @@ def main():
             if confirmation:
                 tracker.reset_challenge()
                 st.success("🎉 The challenge has been completely reset!")
-                st.experimental_rerun()
+                st.rerun()
             else:
                 st.warning("Please confirm to reset the challenge.")
     # -----------------------------------------------------------------
